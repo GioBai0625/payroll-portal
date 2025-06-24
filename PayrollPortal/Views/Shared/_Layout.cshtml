@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - RD Fishing PNG Group PayrollPortal</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/PayrollPortal.styles.css" asp-append-version="true" />
+    <style>
+        body {
+            background: linear-gradient(to right, #e0f7fa, #ffffff);
+        }
+
+        .navbar-custom {
+            background-color: #0277bd;
+        }
+
+            .navbar-custom .nav-link, .navbar-custom .navbar-brand {
+                color: #e1f5fe;
+            }
+
+                .navbar-custom .nav-link:hover, .navbar-custom .navbar-brand:hover {
+                    color: #ffffff;
+                }
+
+        footer {
+            background-color: #b3e5fc;
+            padding: 1rem 0;
+        }
+
+            footer a {
+                color: #01579b;
+            }
+
+        .container-main {
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom shadow-sm">
+            <div class="container-fluid">
+                <a class="navbar-brand d-flex align-items-center" asp-area="" asp-controller="Home" asp-action="Index">
+                    <img src="~/images/rd-logo.png" alt="Logo" style="height:35px;" class="me-2" />
+                    <span>RD Fishing PNG Group</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                        aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        @if (User.Identity?.IsAuthenticated == true && User.IsInRole("HR"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="HR" asp-action="Dashboard">HR Dashboard</a>
+                            </li>
+                        }
+                        @if (User.Identity?.IsAuthenticated == true && User.IsInRole("Employee"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-controller="Employee" asp-action="Home">My Payslips</a>
+                            </li>
+                        }
+                        <partial name="_LoginPartial" />
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container container-main">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="text-center">
+        <div class="container">
+            &copy; 2025 - PayrollPortal - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

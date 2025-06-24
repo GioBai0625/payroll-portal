@@ -1,0 +1,14 @@
+﻿@model IEnumerable<dynamic>
+<h2>All Users</h2>
+<table class="table">
+    <thead><tr><th>Id</th><th>Email</th></tr></thead>
+    <tbody>
+        @foreach (var u in Model)
+        {
+            <tr>
+                <td>@u.Id</td>
+                <td>@u.Email</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,16 @@
+﻿<h2>Your Payslips</h2>
+<table>
+    <tr>
+        <th>Month</th>
+        <th>Action</th>
+    </tr>
+    @foreach (var payslip in Model)
+    {
+        <tr>
+            <td>@payslip.Month</td>
+            <td>
+                <a asp-action="Download" asp-route-id="@payslip.Id">Download</a>
+            </td>
+        </tr>
+    }
+</table>

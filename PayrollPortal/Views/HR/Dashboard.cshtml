@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "HR Dashboard";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@if (TempData["Success"] != null)
+{
+    <div class="alert alert-success">@TempData["Success"]</div>
+}
+
+<form asp-action="UploadPayslip" method="post" enctype="multipart/form-data">
+    <div class="mb-3">
+        <label>Select Employee (by email)</label>
+        <select name="employeeEmail" class="form-select">
+            @foreach (var u in (IEnumerable<Microsoft.AspNetCore.Identity.IdentityUser>)ViewBag.Employees)
+            {
+                <option value="@u.Email">@u.Email</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label>Month</label>
+        <input name="month" type="month" class="form-control" required />
+    </div>
+
+    <div class="mb-3">
+        <label>Payslip PDF</label>
+        <input name="file" type="file" accept="application/pdf" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Upload Payslip</button>
+</form>
