@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PayrollPortal")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0c4447833bc9e41980202bc6214b4671225523b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c48f0680a68d74e84809fd067f77a0997bc5895a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PayrollPortal")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PayrollPortal")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
