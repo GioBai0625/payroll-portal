@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|c:\\rd fishing png\\payrollportall\\payrollportal\\payrollportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|solutionrelative:payrollportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|c:\\rd fishing png\\payrollportall\\payrollportal\\payrollportal\\models\\payslip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|solutionrelative:payrollportal\\models\\payslip.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|c:\\rd fishing png\\payrollportall\\payrollportal\\payrollportal\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|solutionrelative:payrollportal\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|c:\\rd fishing png\\payrollportall\\payrollportal\\payrollportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|solutionrelative:payrollportal\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|c:\\rd fishing png\\payrollportall\\payrollportal\\payrollportal\\views\\admin\\users.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -59,12 +59,12 @@
       "RelativeMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|solutionrelative:payrollportal\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Data\\Migrations\\20250624093606_CreatePayslipTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:PayrollPortal\\Data\\Migrations\\20250624093606_CreatePayslipTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|c:\\rd fishing png\\payrollportall\\payrollportal\\payrollportal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|solutionrelative:payrollportal\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|c:\\rd fishing png\\payrollportall\\payrollportal\\payrollportal\\data\\migrations\\20250624093606_createpaysliptable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0BB997B-E67B-4AE7-B8AD-F06667D02060}|PayrollPortal\\PayrollPortal.csproj|solutionrelative:payrollportal\\data\\migrations\\20250624093606_createpaysliptable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,20 +82,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T11:05:15.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Login.cshtml.cs",
               "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
@@ -103,8 +90,7 @@
               "RelativeToolTip": "PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T11:05:15.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T11:05:15.411Z"
             },
             {
               "$type": "Document",
@@ -116,8 +102,7 @@
               "RelativeToolTip": "PayrollPortal\\Views\\Admin\\Users.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T10:45:49.932Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:45:49.932Z"
             },
             {
               "$type": "Document",
@@ -129,12 +114,11 @@
               "RelativeToolTip": "PayrollPortal\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:45:12.882Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:45:12.882Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "PayrollPortal\\Views\\Shared\\_Layout.cshtml",
@@ -142,8 +126,7 @@
               "RelativeToolTip": "PayrollPortal\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T10:23:22.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:23:22.16Z"
             },
             {
               "$type": "Document",
@@ -155,12 +138,11 @@
               "RelativeToolTip": "PayrollPortal\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAADwAAAAAAAAAAAAiwFYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T10:04:52.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:04:52.743Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "PayrollPortal\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -168,20 +150,32 @@
               "RelativeToolTip": "PayrollPortal\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T10:09:05.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:09:05.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Payslip.cs",
               "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Models\\Payslip.cs",
               "RelativeDocumentMoniker": "PayrollPortal\\Models\\Payslip.cs",
               "ToolTip": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Models\\Payslip.cs",
               "RelativeToolTip": "PayrollPortal\\Models\\Payslip.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-24T09:33:19.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Program.cs",
+              "RelativeDocumentMoniker": "PayrollPortal\\Program.cs",
+              "ToolTip": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Program.cs",
+              "RelativeToolTip": "PayrollPortal\\Program.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-24T09:30:40.344Z",
               "EditorCaption": ""
             },
             {
@@ -194,29 +188,27 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "PayrollPortal\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-24T11:05:15.649Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "PayrollPortal",
+              "Title": "PayrollPortal.csproj",
               "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\PayrollPortal.csproj",
               "RelativeDocumentMoniker": "PayrollPortal\\PayrollPortal.csproj",
               "ToolTip": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\PayrollPortal.csproj",
               "RelativeToolTip": "PayrollPortal\\PayrollPortal.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-24T10:02:55.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Program.cs",
-              "RelativeDocumentMoniker": "PayrollPortal\\Program.cs",
-              "ToolTip": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Program.cs",
-              "RelativeToolTip": "PayrollPortal\\Program.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:30:40.344Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T10:02:55.458Z"
             },
             {
               "$type": "Document",
@@ -228,8 +220,7 @@
               "RelativeToolTip": "PayrollPortal\\Views\\Employee\\Home.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T09:41:12.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:41:12.737Z"
             },
             {
               "$type": "Document",
@@ -241,8 +232,7 @@
               "RelativeToolTip": "PayrollPortal\\Views\\HR\\Dashboard.cshtml",
               "ViewState": "AgIAAAUAAAAAAAAAAAAuwBgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-06-24T09:40:27.839Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:40:27.839Z"
             },
             {
               "$type": "Document",
@@ -254,8 +244,7 @@
               "RelativeToolTip": "PayrollPortal\\Controllers\\HRController.cs",
               "ViewState": "AgIAAEAAAAAAAAAAAAAuwFQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:36:57.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:36:57.504Z"
             },
             {
               "$type": "Document",
@@ -267,12 +256,11 @@
               "RelativeToolTip": "PayrollPortal\\Controllers\\EmployeeController.cs",
               "ViewState": "AgIAAC0AAAAAAAAAAAAiwEcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:37:31.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:37:31.88Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "20250624093606_CreatePayslipTable.cs",
               "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Data\\Migrations\\20250624093606_CreatePayslipTable.cs",
               "RelativeDocumentMoniker": "PayrollPortal\\Data\\Migrations\\20250624093606_CreatePayslipTable.cs",
@@ -280,12 +268,11 @@
               "RelativeToolTip": "PayrollPortal\\Data\\Migrations\\20250624093606_CreatePayslipTable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:36:07.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:36:07.259Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\RD Fishing PNG\\PayrollPortall\\PayrollPortal\\PayrollPortal\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "PayrollPortal\\Data\\ApplicationDbContext.cs",
@@ -293,8 +280,7 @@
               "RelativeToolTip": "PayrollPortal\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-24T09:33:52.662Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-24T09:33:52.662Z"
             }
           ]
         }

@@ -8,13 +8,16 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
 # Copy solution and project files
-COPY PayrollPortal.sln .                             # ✅ This line is good
-COPY PayrollPortal/ PayrollPortal/                   # ✅ This copies the full folder contents
+COPY PayrollPortal.sln .
+COPY PayrollPortal/PayrollPortal.csproj PayrollPortal/
 
 # Restore dependencies
-RUN dotnet restore PayrollPortal.sln                 # ✅ Explicitly restore using .sln
+RUN dotnet restore
 
-# Build and publish the app
+# Copy the rest of the source code
+COPY . .
+
+# Publish the app
 WORKDIR /src/PayrollPortal
 RUN dotnet publish -c Release -o /app/publish
 
